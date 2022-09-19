@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def clientes(request):
-    return HttpResponse('Teste')
+    return render(request, 'clientes.html')
